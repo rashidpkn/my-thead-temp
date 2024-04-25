@@ -1,0 +1,77 @@
+/**
+* Frontend styles
+*/
+
+td.woocommerce-orders-table__cell-order-check {
+
+}
+
+td.woocommerce-orders-table__cell-order-check input {
+    cursor: pointer;
+}
+
+td.woocommerce-orders-table__cell-order-check input[disabled] {
+    cursor: not-allowed;
+}
+
+div.woocommerce-pagination.woocommerce-pagination--so-actions {
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+
+div.woocommerce-pagination.woocommerce-pagination--so-actions a.button:after {
+    content: "\f140";
+    position: relative;
+    font-family: dashicons;
+    margin-left: 10px;
+    top: 1px;
+    font-size: 14px;
+}
+
+div.woocommerce-pagination.woocommerce-pagination--so-actions a.button.expanded {
+    filter: brightness(0.9) contrast(1.1);
+}
+
+div.woocommerce-pagination.woocommerce-pagination--so-actions a.button.expanded:after {
+    content: "\f142";
+}
+
+div.woocommerce-pagination.woocommerce-pagination--merge a.button[disabled] {
+    cursor: not-allowed;
+}
+
+ul.wcsop-front-actions-list {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    box-shadow: 0px 1px 2px #6f6f6f;
+    bottom: 100%;
+    margin-bottom: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+ul.wcsop-front-actions-list.expanded {
+    display: block;
+}
+
+ul.wcsop-front-actions-list li {
+    padding: 10px;
+}
+
+ul.wcsop-front-actions-list li:hover {
+    background-color: #ddd;
+}
+
+div.wcsop_markers div.wcsop_custom_mark__orders_list {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    margin: 5px 0;
+    padding-left: 5px;
+    white-space: nowrap;
+}

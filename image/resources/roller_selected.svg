@@ -1,0 +1,21 @@
+<svg width="107" height="107" viewBox="0 0 107 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="104.598" height="104.598" rx="5" fill="white" stroke="#2553A8" stroke-width="2"/>
+<rect x="32.7191" y="22.4706" width="40.1531" height="43.1793" fill="#F6F6F5" stroke="#818387" stroke-width="0.7"/>
+<rect x="53.5518" y="25.147" width="16.6439" height="37.827" fill="#F3F5F7"/>
+<rect x="53.8518" y="23.9338" width="17.5569" height="40.2531" stroke="#818387" stroke-width="0.6"/>
+<path d="M53.5524 25.147H70.1963L70.1963 62.9739" stroke="#818387" stroke-width="0.7"/>
+<path d="M53.5518 62.9742H70.1956" stroke="#818387" stroke-width="0.7"/>
+<rect x="35.3955" y="25.147" width="16.6439" height="37.827" fill="#F3F5F7"/>
+<path d="M34.3047 24.127L35.3951 25.1469" stroke="#4A4A4A" stroke-width="0.7" stroke-linecap="round"/>
+<path d="M52.0394 25.147H35.3955V44.0605L35.3955 62.9739" stroke="#818387" stroke-width="0.7"/>
+<path d="M35.3949 62.9736L34.2601 64.1084" stroke="#818387" stroke-width="0.7" stroke-linecap="round"/>
+<path d="M35.3955 62.9736H52.0394" stroke="#818387" stroke-width="0.7"/>
+<rect x="34.1818" y="23.9338" width="17.5569" height="40.2531" stroke="#818387" stroke-width="0.6"/>
+<path d="M71.373 24.0073L70.196 25.1467" stroke="#4A4A4A" stroke-width="0.7" stroke-linecap="round"/>
+<path d="M70.1959 62.9736L71.373 64.1084" stroke="#818387" stroke-width="0.7" stroke-linecap="round"/>
+<rect x="30.0801" y="20.0405" width="45.7706" height="21.8451" rx="1" fill="#D8D8D8" stroke="#9B9B9B" stroke-width="0.8"/>
+<path d="M29.44 20C29.44 19.6686 29.7087 19.4 30.04 19.4H75.8911C76.2225 19.4 76.4911 19.6686 76.4911 20V22.161C76.4911 22.4923 76.2225 22.761 75.8911 22.761H30.04C29.7087 22.761 29.44 22.4923 29.44 22.161V20Z" fill="#D8D8D8" stroke="#9B9B9B" stroke-width="0.8"/>
+<line x1="30.0801" y1="23.2012" x2="75.8507" y2="23.2012" stroke="#9B9B9B" stroke-opacity="0.5" stroke-width="2"/>
+<rect x="28" y="19" width="2.08048" height="4.16097" fill="#818387"/>
+<rect x="75.8516" y="19" width="2.08048" height="4.16097" fill="#818387"/>
+</svg>
