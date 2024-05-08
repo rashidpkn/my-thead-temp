@@ -1071,23 +1071,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </p>
             </div>
             <form id="price-your-window" class="measure-control__form">
-                <div class="measure-control__form-col">
-                    <label for="measurement-width"><span>Window </span>Width</label>
-                    <input name="measurement-width" id="measurement-width" placeholder="1000">
-                    <div class="metric">mm</div>
-                </div>
-                <div class="measure-control__form-col">
-                    <label for="measurement-height"><span>Window </span>Height</label>
-                    <input name="measurement-height" id="measurement-height" placeholder="2000">
-                    <div class="metric">mm</div>
-                </div>
-                <div class="measure-control__btn-wrap">
-                    <button class="measure-control__form-update btn btn--green" type="button" aria-label="set my window measurements">Update</button>
-                    <div class="measure-control__success"></div>
-                    <div class="measure-control__calcing"></div>
-                </div>
-                <div class="measure-error-msg" style="display:none;"></div>
-            </form>
+
+                <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            const updateBtn = document.querySelector('.measure-control__form-update');
+                
+                            updateBtn.addEventListener('click', function() {
+                                const width = document.getElementById('measurement-width').value;
+                                const height = document.getElementById('measurement-height').value;
+                                if(!height || !width){
+                                    alert('Please enter height and width')
+                                    return
+                                }else if(isNaN(width) || isNaN(height)){
+                                    alert('Height and width are in valid')
+                                    return
+                                }
+                                const style = 'pencil'
+                                const url = `https://productbuilder.my-thread.com/?h=${height}&&w=${width}&&style=${style}`;
+                                window.open(url, '_self');
+                            });
+                        });
+                    </script>
+                
+                        <div class="measure-control__form-col">
+                            <label for="measurement-width"><span>Window </span>Width</label>
+                            <input name="measurement-width" id="measurement-width" placeholder="200">
+                            <div class="metric">cm</div>
+                        </div>
+                        <div class="measure-control__form-col">
+                            <label for="measurement-height"><span>Window </span>Height</label>
+                            <input name="measurement-height" id="measurement-height" placeholder="200">
+                            <div class="metric">cm</div>
+                        </div>
+                        <div class="measure-control__btn-wrap">
+                            <button class="measure-control__form-update btn btn--green" type="button" aria-label="set my window measurements">Update</button>
+                        </div>
+                    </form>
 
         </div>
     </div>
