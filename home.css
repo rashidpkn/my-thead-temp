@@ -27,7 +27,25 @@ section#screen-10 {
 .px-10{
     padding: 0px 20px;
 }
-
+.pd1{
+   width: 600px;
+   
+   
+   
+}
+li{
+   list-style: none;
+}
+.screen4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.font{
+    font-size:60px;
+    text-align: center;
+}
 @media screen and (min-width:1024px) {
     
     .px-10{
