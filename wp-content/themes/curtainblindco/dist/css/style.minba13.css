@@ -8079,7 +8079,7 @@ html:not(.mobile):not(.tablet) .home-blog-grid .slick-control:not(.slick-control
 .content-block--aside-image .content-block__hero-img .content-block__hero-img-wrap img {
 	display: block;
 	position: absolute;
-	top: 0;
+	top: 14px;
 	left: 0;
 	height: 100%;
 	width: 100%;
@@ -9782,7 +9782,7 @@ img {
 
 .container {
 	width: 100%;
-	max-width: 1380px;
+	 max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 50px;
@@ -11804,7 +11804,7 @@ html:not(.mobile):not(.tablet) .is-editable a:not(.btn):hover {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #3f7355
+	background: #fff;
 }
 
 .is-editable .iframe-wrapper {
