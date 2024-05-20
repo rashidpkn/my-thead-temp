@@ -5375,7 +5375,7 @@ html.reduced-motion .opening-panel__reveal .wave {
 }
 
 .opening-panel__toggle-copy--open {
-	max-height: 600px;
+	max-height: 1000px;
 	opacity: 1
 }
 
