@@ -20,7 +20,7 @@ section#screen-10 {
         height: 150px;
         background-color: #e1999f;
         position: relative;
-        top: 13px;
+        top: 16px;
 }
 
 
@@ -30,6 +30,7 @@ section#screen-10 {
 .pd1{
    width: 600px;
    list-style-type: none;
+   color: #e1999f;
 }
 li{
    list-style: none;
@@ -43,6 +44,16 @@ li{
 .font{
     font-size:60px;
     text-align: center;
+}
+.choose>:hover{
+    
+}
+.main-footer{
+    height:470px
+
+}
+.main-footer__cap{
+    margin-top:20px;
 }
 
 @media screen and (min-width:1024px) {

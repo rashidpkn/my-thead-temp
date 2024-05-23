@@ -2142,7 +2142,7 @@ html:not(.mobile):not(.tablet) a.btn--white.btn--border:focus,
 html:not(.mobile):not(.tablet) a.btn--white.btn--border:hover,
 html:not(.mobile):not(.tablet) button.btn--white.btn--border:focus,
 html:not(.mobile):not(.tablet) button.btn--white.btn--border:hover {
-	background-color: #3f7355;
+	background-color: pink;
 	border-color: #3f7355;
 	color: #fff
 }
@@ -3126,7 +3126,7 @@ body:not(.home-new) .img-loading:not(.loaded):not(.lazy-complete):after {
 
 .wave-static {
 	width: 92px;
-	height: 17px;
+	height: 23px;
 	border-radius: 50px;
 	overflow: hidden;
 	line-height: 1
@@ -5750,7 +5750,7 @@ html:not(.mobile):not(.tablet) .opening-panel--samples-page .samples-ctas__butto
 }
 
 .have-questions__primary .wave-static {
-	margin: 60px 0 45px
+	margin: 12px 0 22px
 }
 
 .have-questions__primary-copy {
@@ -8068,7 +8068,7 @@ html:not(.mobile):not(.tablet) .home-blog-grid .slick-control:not(.slick-control
 .content-block--aside-image .content-block__hero-img {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 18px;
 	right: 0;
 	bottom: 0;
 	background-repeat: no-repeat;
@@ -9560,7 +9560,7 @@ html:not(.mobile):not(.tablet) .cart-preview_inner .checkout-ctas>.checkout:hove
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	padding-top: 160px;
+	padding-top: 84px;
 	padding-bottom: 90px
 }
 
@@ -9700,7 +9700,7 @@ html:not(.mobile):not(.tablet) .main-footer__subscribe button:hover {
 
 .main-footer__cap {
 	width: 100%;
-	margin: 65px 0 0;
+	margin: -3px 0 0;
 	font-size: 1.3rem
 }
 
@@ -9782,7 +9782,7 @@ img {
 
 .container {
 	width: 100%;
-	 max-width: 1400px;
+	 max-width: 1660px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 50px;
@@ -11779,7 +11779,7 @@ html:not(.mobile):not(.tablet) .is-editable a:not(.btn):hover {
 
 .is-editable ol,
 .is-editable ul {
-	margin: 30px 0
+	margin: 30px -16px
 }
 
 .is-editable ol li+li,
@@ -11804,7 +11804,7 @@ html:not(.mobile):not(.tablet) .is-editable a:not(.btn):hover {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #fff;
+	background: pink;
 }
 
 .is-editable .iframe-wrapper {
@@ -16931,11 +16931,11 @@ textarea::placeholder {
 	}
 
 	.content-block--aside-image .content-block__content-inner {
-		padding: 0 0 0 80px
+		padding: 0 0 0 30px
 	}
 
 	.content-block--aside-image--img-right .content-block__content-inner {
-		padding: 0 145px 0 0
+		/* padding: 0 145px 0 0 */
 	}
 
 	.product-specifications h3 {

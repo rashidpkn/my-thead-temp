@@ -1991,8 +1991,8 @@
                                         Mobile Sub Menu</span></button>
                                 <div class="nav__sub">
                                     <ul>
-                                        <li><a href="">Our Fabrics</a></li>
-                                        <li><a href="">Our Colors</a></li>
+                                        <li><a href="fabric/">Our Fabrics</a></li>
+                                        <li><a href="colours/">Our Colors</a></li>
                                     </ul>
                                 </div>
                                 <div class="nav__mega">
@@ -2006,7 +2006,7 @@
                                                 <div class="nav__mega-contents">
                                                     <div class="cards-grid waypoint">
                                                         <article class="card-grid__item card-category step-up">
-                                                            <a href="#" class="card-category__link">
+                                                            <a href="fabric/" class="card-category__link">
                                                                 <div class="card-category__hero lazyload"
                                                                     data-src="/wp-content/uploads/Fabric/fab2.webp">
                                                                 </div>
@@ -2025,7 +2025,7 @@
                                                             </a>
                                                         </article>
                                                         <article class="card-grid__item card-category step-up">
-                                                            <a href="l" class="card-category__link">
+                                                            <a href="colours/" class="card-category__link">
                                                                 <div class="card-category__hero lazyload"
                                                                     data-src="/wp-content/uploads/Fabric/fab1.webp">
                                                                 </div>
@@ -2054,7 +2054,7 @@
                                 <a href="">Our Works</a>
                             </li>
                             <li class="nav-item__value-buys">
-                                <a href="">Need Help</a>
+                                <a href="/needhelp/">Need Help</a>
                             </li>
                             <li class="nav-item__measure-install">
                                 <a href="/measure-install/">Free Samples</a>
@@ -2500,7 +2500,7 @@
                                             <div class="card--nav-category card card--has-link">
                                                 <div class="card__inner">
                                                     <div class="card__content">
-                                                        <h3 class="card__title">
+                                                        <h3 class="card__title"  >
                                                             <a href="/curtains/pencil-curtains/" class="card__link">
                                                                 pencil curtains </a>
                                                         </h3>
@@ -3107,15 +3107,26 @@
                 </div>
             </div> -->
 
+        
+            <div
+            
+            style="height: calc(100vh - 128px);width: 100%; background-image: url(/wp-content/uploads/photo/main.png); display: flex; align-items: center;background-repeat: no-repeat;background-size: cover;background-position: center;position: relative;">
+            
             <div class="appoinment">
                 <a href="#">
-                    <p>Book a free virtual design consultation</p>
+                    <p> Book free virtual design consultation</p>
                 </a>
             </div>
-
-            <div
-                style="height: calc(100vh - 128px);width: 100%; background-image: url(/wp-content/uploads/photo/main.png); display: flex; align-items: center;background-repeat: no-repeat;background-size: cover;background-position: center;">
                 <style>
+                    .appoinment{
+                        position: absolute;
+                        top: 0;
+                        width: 100%;
+                        
+                    }
+                    .appoinment p{
+                        color: #243029 !important;
+                    }
                     .shopNow:hover {
                         background: #000 !important;
                         color: #fff;
@@ -3173,12 +3184,14 @@
                     }
 
                     .curtians-blinds {
-                        margin-left: 100px;
+                        margin-left: 21px;
+                        margin-bottom: 80px;
                     }
 
                     @media screen and (max-width:1000px) {
                         .curtians-blinds {
                             margin-left: 20px;
+                        
                         }
                     }
 
@@ -3195,15 +3208,15 @@
 
                     .appoinment {
                         height: 52px;
-                        background-color: #8f2e15;
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                       
                     }
 
                     .appoinment p {
                         text-align: center;
-                        color: white;
+                        color:black;
                         font-size: 18px;
                         font-weight: 600;
                         cursor: pointer;
@@ -3212,13 +3225,28 @@
                     .appoinment p:hover {
                         text-decoration: underline;
                     }
+                    @media  screen and (max-width: 600px) {
+                         .title{
+                            color: #000 !important;
+                         }
+                    }
+                    @media  screen and (max-width: 600px) {
+                         .desc{
+                            color: #000 !important;
+                         }
+                    }
+                    @media  screen and (max-width: 600px) {
+                         .shopNow-btn{
+                            color: #000 !important;
+                         }
+                    }
                 </style>
 
                 <div class="curtians-blinds">
-                    <h2 class="title" style="color: #f8f2e2;">Curtains + Blinds</h2>
-                    <h2 class="desc" style="color: #f8f2e2;">Order online and delivered with in 3 days</h2>
+                    <h2 class="title" style="font-size: 41px;color:white; line-height: 10px;">Curtains + Blinds</h2>
+                    <h2 class="desc" style="color: white; font-size: 15px;">Order online and delivered with in 3 days</h2>
                     <button class="shopNow-btn"
-                        style="transition-duration: 200ms;margin-top: 20px;font-size: 20px;font-weight: 500;background-color: #fff;display: block;border: 1px solid white;">SHOP
+                        style="transition-duration: 200ms;margin-top: 20px;font-size: 18px;font-weight: 500;background-color: #fff;display: block;border: 1px solid white; color:white;">SHOP
                         NOW</button>
                     <!-- <button class="shopNow" onclick=' window.location.href="/order-samples" '
                                       style="transition-duration: 200ms;margin-top: 20px;font-size: 20px;font-weight: 500;color: #fff;display: block;border: 1px solid white;">Free
@@ -4101,9 +4129,9 @@
 
                                 <div class="z-10 card card--product-type card--has-link">
                                     <div class="card__inner">
-                                        <div class="card__content" style="margin-top: 90px;" >
+                                        <div class="card__content" style="margin-top: 160px;" >
                                             <h2 class="card__title">
-                                                <a href="/curtains/pencil-curtains/" style="color: #e1999f;" class="card__link"> Pencil Pleat
+                                                <a href="/curtains/pencil-curtains/" style="color: #e1999f;font-size: 2.4rem;" class="card__link"> Pencil Pleat
                                                     Curtain </a>
                                             </h2>
                                         </div>
@@ -4137,8 +4165,8 @@
                                 <div class="z-10 card card--product-type card--has-link">
                                     <div class="card__inner">
                                         <div class="card__content">
-                                            <h2 class="card__title" style="margin-top: 90px; text-align: start;" >
-                                                <a href="/curtains/eyelet-curtains/" style="color: #e1999f;" class="card__link"> Eyelet
+                                            <h2 class="card__title" style="margin-top: 160px; text-align: start;" >
+                                                <a href="/curtains/eyelet-curtains/" style="color: #e1999f;font-size:2.4rem;" class="card__link"> Eyelet
                                                     Curtain </a>
                                             </h2>
                                         </div>
@@ -4171,8 +4199,8 @@
                                 <div class="z-10 card card--product-type card--has-link">
                                     <div class="card__inner">
                                         <div class="card__content">
-                                            <h2 class="card__title" style="margin-top: 90px;" >
-                                                <a href="/curtains/thriblepleat-curtains/" style="color: #e1999f;" class="card__link"> Triple Pleat
+                                            <h2 class="card__title" style="margin-top: 160px;" >
+                                                <a href="/curtains/thriblepleat-curtains/" style="color: #e1999f;font-size: 2.4rem;" class="card__link"> Triple Pleat
                                                     Curtain </a>
                                             </h2>
                                         </div>
@@ -4421,8 +4449,8 @@
                                     <div class="z-10 card card--product-type card--has-link">
                                         <div class="card__inner">
                                             <div class="card__content">
-                                                <h2 class="card__title"style="margin-top: 90px;" >
-                                                    <a href="/blinds/blinds-roller/" style="color:#f9f1f0;" class="card__link">
+                                                <h2 class="card__title"style="margin-top: 160px;" >
+                                                    <a href="/blinds/blinds-roller/" style="color:#f9f1f0; font-size: 2.4rem; " class="card__link">
                                                         Roller Blinds </a>
                                                 </h2>
                                             </div>
@@ -4432,18 +4460,18 @@
                                                         <source media="(min-width: 481px)"
                                                             srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
                                                             type="image/jpeg"
-                                                            data-srcset="wp-content/uploads/photo/roller.jpg">
+                                                            data-srcset="wp-content/uploads/photo/roller2.jpg">
 
                                                         <source media="(max-width: 480px)"
                                                             srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
                                                             type="image/jpeg"
-                                                            data-srcset="wp-content/uploads/photo/roller.jpg">
+                                                            data-srcset="wp-content/uploads/photo/roller2.jpg">
 
 
                                                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
                                                             alt="image of a baby bedroom with roller blinds" width="680"
                                                             height="460" class="image--cover lazy"
-                                                            data-src="wp-content/uploads/photo/roller.jpg">
+                                                            data-src="wp-content/uploads/photo/roller2.jpg">
                                                     </picture>
                                                 </div>
                                             </div>
@@ -4455,8 +4483,8 @@
                                     <div class="z-10 card card--product-type card--has-link">
                                         <div class="card__inner">
                                             <div class="card__content">
-                                                <h2 class="card__title"  style="margin-top: 90px; text-align: start;">
-                                                    <a href="/blinds/venetian-blinds/" style="color:#f9f1f0;" class="card__link"> 
+                                                <h2 class="card__title"  style="margin-top:  160px;; text-align: start;">
+                                                    <a href="/blinds/venetian-blinds/" style="color:#f9f1f0; font-size: 2.4rem;" class="card__link"> 
                                                         Venetian Blinds
                                                         </a>
                                                 </h2>
@@ -4467,18 +4495,18 @@
                                                         <source media="(min-width: 481px)"
                                                             srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
                                                             type="image/jpeg"
-                                                            data-srcset="wp-content/uploads/photo/ven.jpg">
+                                                            data-srcset="wp-content/uploads/photo/ven5.jpg">
 
                                                         <source media="(max-width: 480px)"
                                                             srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
                                                             type="image/jpeg"
-                                                            data-srcset="wp-content/uploads/photo/ven.jpg">
+                                                            data-srcset="wp-content/uploads/photo/ven5.jpg">
 
 
                                                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
                                                             alt="image of a baby bedroom with roller blinds" width="680"
                                                             height="460" class="image--cover lazy"
-                                                            data-src="wp-content/uploads/photo/ven.jpg">
+                                                            data-src="wp-content/uploads/photo/ven5.jpg">
                                                     </picture>
                                                 </div>
                                             </div>
@@ -4491,8 +4519,8 @@
                                     <div class="z-10 card card--product-type card--has-link">
                                         <div  class="card__inner">
                                             <div class="card__content">
-                                                <h2 class="card__title" style="margin-top: 90px;">
-                                                    <a href="/blinds/cellular-blinds/" style="color: #f9f1f0;" class="card__link"> 
+                                                <h2 class="card__title" style="margin-top:  160px;;">
+                                                    <a href="/blinds/cellular-blinds/" style="color: #f9f1f0; font-size: 2.4rem;" class="card__link"> 
                                                         Cellular Blinds
                                                     </a>
                                                 </h2>
@@ -4503,12 +4531,12 @@
                                                         <source media="(min-width: 481px)"
                                                             srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
                                                             type="image/jpeg"
-                                                            data-srcset="wp-content/uploads/photo/cel.jpg">
+                                                            data-srcset="wp-content/uploads/photo/cel3.jpg">
 
                                                         <source media="(max-width: 480px)"
                                                             srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
                                                             type="image/jpeg"
-                                                            data-srcset="wp-content/uploads/photo/cel.jpg">
+                                                            data-srcset="wp-content/uploads/photo/cel3.jpg">
 
 
                                                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
@@ -4741,21 +4769,21 @@
                     <span class="text--blue" style="color: #f9f1f0;">
                         Automate Your Curtains and Blinds <br> with My Thread in Dubai
                 </h2>
-                <p style="text-align: center; font-size: 20px;">Elevate your home with My Thread’s automated curtains and blinds,<br> blending
+                <p style="text-align: center; font-size: 20px;margin: 17px;">Elevate your home with My Thread’s automated curtains and blinds,<br> blending
                     cutting-edge technology with style in Dubai.</p>
                 </div>
                 <div class="container">
                     <div
                     
-                    style="margin-top: -50px;" class="  content-block content-block--aside-image content-block--aside-image--center content-block--aside-image--img-right waypoint">
-                        <div class="zn-20 content-block__content step-in-left">
+                    style="margin-top:-5px;background-color: #fff; width: 100%;  padding: 30px;border-radius: 10px;" class="  content-block content-block--aside-image content-block--aside-image--center content-block--aside-image--img-right waypoint">
+                        <div class="zn-20 content-block__content step-in-left" >
                             <div class="content-block__content-inner is-editable">
                               
 
                                 
-                                <div class="play">
-                                    <h5 style="font-size: 25px;">Why Choose Automation?</h5>
-                                    <ul class="pd1">
+                                <div style="line-height: 23px;" class="play">
+                                    <h5 style="font-size: 25px;color: #e1999f;margin-left: 18px;">Why Choose Automation?</h5>
+                                    <ul style="color: #e1999f; width: 100%;" class="pd1">
                                         <li >Ease of Use: Control your curtains with a remote or smart device.</li>
                                         <li>Energy Savings: Automated closing during peak sun reduces cooling costs.
                                         </li>
@@ -4764,20 +4792,21 @@
                                         <li>Custom Designs: Wide selection of materials and designs to suit your Dubai
                                             home.</li>
                                     </ul>
-                                    <h5 class="pd1" style="font-size: 25px;">Features of Our Smart Curtains and Blinds:</h5>
-                                    <ul class="pd1">
+                                    <h5 style="color: #e1999f;margin-left: 17px;width: 100%;" class="pd1" style="font-size: 25px;">Features of Our Smart Curtains and Blinds:</h5>
+                                    <ul style="color: #e1999f;width: 100%;" class="pd1">
                                         <li>Remote and Voice Control: Operate your curtains through voice commands or a
                                             remote.</li>
                                         <li>Scheduled Settings: Program your blinds to adjust based on time or sunlight
                                             intensity.</li>
+                                            <p style="color: #e1999f;margin-left: 17px; width: 100%;" class="pd1" >Visit My Thread in Dubai for a personalized consultation and discover the perfect
+                                                smart window treatments for your space.</p>
+                                            <p style="color: #e1999f;margin-left: 17px; width: 100%;" class="pd1" style="line-height: 60px;">Transform your home with convenience and elegance at My Thread!</p>
                                     </ul>
-                                    <p class="pd1" >Visit My Thread in Dubai for a personalized consultation and discover the perfect
-                                        smart window treatments for your space.</p>
-                                    <p class="pd1" style="line-height: 60px;">Transform your home with convenience and elegance at My Thread!</p>
+
 
                                 </div>
 
-                                <a href="tel:1300301368" class="btn btn--white btn--border">
+                                <a  style=" border: 1px solid black;color: #e1999f;" href="tel:1300301368" class="btn btn--white btn--border choose">
                                     <svg width="50" height="49" viewBox="0 0 50 49" aria-hidden="true" role="img"
                                         class="icon-call">
                                         <title>Call</title>
@@ -4789,10 +4818,10 @@
                         </div>
                         <div class="content-block__hero">
                             <div class="content-block__hero-main img-reveal img-reveal--dark img-reveal--right">
-                                <div class="content-block__hero-img lazyload img-loading img-loading--blue">
+                                <div  class="content-block__hero-img lazyload img-loading img-loading--blue">
 
                                     <div class="content-block__hero-img-wrap">
-                                        <picture>
+                                        <picture style="border-radius: 10px;">
                                             <source media="(min-width: 601px)" srcset="/image/home/1.webp"
                                                 type="image/jpeg" data-srcset="/image/home/1.webp">
 
@@ -4815,33 +4844,37 @@
                     </div>
                     <div class="screen4" >
                         <h2 class="font">Why Choose My Thread for Your Curtains and Blinds in Dubai?</h2>
-                        <p style="text-align: center; font-size: 20px;">At My Thread, we offer an unmatched combination of quality, customization, and speed,
+                        <p style="text-align: center; font-size: 20px;color: #e1999f;width: 100%;">At My Thread, we offer an unmatched combination of quality, customization, and speed,<br>
                             ensuring that your window treatments not only look spectacular but also meet all of
                             your functional needs.</p>
                         </div>
-                    <div style="margin-top: -60px;" class=" content-block content-block--aside-image content-block--aside-image--center waypoint">
+                    <div style="padding: 10px;background-color: #fff;border-radius: 10px;" class=" content-block content-block--aside-image content-block--aside-image--center waypoint">
                         <div class="content-block__content step-in-right">
                          
                             <div class="content-block__content-inner is-editable">
                                
                                 <div class="">
-                                    <h3 style="font-size: 30px;">Top Reasons to Choose My Thread:</h3>
-                                    <ul class="pd1" >
+                                    <h3 style="font-size: 30px;color: #e1999f;width: 100%;">Top Reasons to Choose My Thread:</h3>
+                                    <ul style="color: #e1999f;width: 100%" class="pd1" >
                                         <li >Superior Quality Fabrics: We source only the finest fabrics, ensuring that every curtain and blind offers both style and durability.</li>
                                         <li>Exquisite Stitching: Our attention to detail in stitching guarantees that each piece is flawless and lasts longer.</li>
                                         <li>Rapid Installation: Our experienced installation team in Dubai works efficiently to fit your schedule, ensuring a quick and hassle-free setup.</li>
                                         <li>Rapid Installation: Our experienced installation team in Dubai works efficiently to fit your schedule, ensuring a quick and hassle-free setup.</li>
                                        
                                     </ul>
-                                    <h5 class="pd1" style="font-size: 25px;">Only at My Thread: Complete Customization</h5>
-                                    <p class="pd1" >We are the only provider in Dubai that offers such extensive customization
+                                    <h5 class="pd1" style="font-size: 25px;color: #e1999f;width: 100%">Only at My Thread: Complete Customization</h5>
+                                    <p style="width: 100%" class="pd1" >We are the only provider in Dubai that offers such extensive customization
                                         options. Whether you are looking for classic elegance or modern flair, our
                                         bespoke services cater to every taste and need.</p>
-                                    <h5 class="pd1" style="font-size: 25px;">Choose My Thread for Unparalleled Quality and Personalization</h5>
-                                    <p class="pd1" >Visit us online or in-store in Dubai to start designing your dream curtains and
+                                    <h5 class="pd1" style="font-size: 25px;width: 100%">Choose My Thread for Unparalleled Quality and Personalization</h5>
+                                    <p style="width: 100%" class="pd1" >Visit us online or in-store in Dubai to start designing your dream curtains and
                                         blinds today. Experience the perfect blend of luxury, creativity, and
                                         efficiency, exclusively at My Thread.</p>
                                 </div>
+
+                                
+
+
                                 <a style="margin-top: 13px;"  href="https://productbuilder.my-thread.com/" class="btn btn_white">Shop now</a>
                                 <!-- <a href="/curtains/" class="btn btn--green btn--hover-yellow">Shop now</a> -->
                             </div>
@@ -4882,10 +4915,10 @@
                                             data-srcset="https://curtainandblindco.com.au/wp-content/uploads/2021/08/homepage-sample-160x160-1-109x109.jpg, https://curtainandblindco.com.au/wp-content/uploads/2021/08/homepage-sample-160x160-1.jpg 2x">
 
 
-                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+                                        <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
                                             alt="small close up image of sheer curtain" width="158" height="158"
                                             class="lazy image--cover"
-                                            data-src="wp-content/uploads/2021/08/homepage-sample-160x160-1-158x158.jpg">
+                                            data-src="wp-content/uploads/2021/08/homepage-sample-160x160-1-158x158.jpg"> -->
                                     </picture>
                                     <svg width="218" height="218" viewBox="0 0 218 218" aria-hidden="true" role="img">
                                         <defs>
