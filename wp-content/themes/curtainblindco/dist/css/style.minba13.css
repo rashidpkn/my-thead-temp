@@ -2144,7 +2144,7 @@ html:not(.mobile):not(.tablet) button.btn--white.btn--border:focus,
 html:not(.mobile):not(.tablet) button.btn--white.btn--border:hover {
 	background-color: pink;
 	border-color: #3f7355;
-	color: #fff
+	color: #fff !important;
 }
 
 .btn--green {
