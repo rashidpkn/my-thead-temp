@@ -3978,7 +3978,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section__footer">
+                        <style>
+                            @media screen and (max-width :600px){
+                                
+                                .mob-boss .section__cards{
+                                    flex-direction: column;
+                                }
+                                .mob-boss .section__cards > div, .mob-boss .section__cards article{
+                                    width: 100% !important;
+                                    height: auto !important;
+                                }
+
+                                .mob-boss h3{
+                                    display: none;
+                                }
+                            }
+                        </style>
+                    <div class="section__footer mob-boss">
+
 
                         <div class="section__cards">
                             <div>
