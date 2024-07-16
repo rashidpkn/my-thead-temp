@@ -1520,7 +1520,7 @@
                     <nav class="nav" id="skip-to-navigation">
                         <ul class="nav__primary">
                             <li class="nav-item__blinds has-menu">
-                                <a href="">Shop</a>
+                                <a href="#">Shop</a>
                                 <button type="button" class="js--sub-menu-toggle"><span class="hidden">Toggle Blinds
                                         Mobile Sub Menu</span></button>
                                 <div class="nav__sub">
@@ -1656,8 +1656,8 @@
                                         Mobile Sub Menu</span></button>
                                 <div class="nav__sub">
                                     <ul>
-                                        <li><a href="">Our Fabrics</a></li>
-                                        <li><a href="">Our Colors</a></li>
+                                        <li><a href="#">Our Fabrics</a></li>
+                                        <li><a href="#">Our Colors</a></li>
                                     </ul>
                                 </div>
                                 <div class="nav__mega">
@@ -1716,10 +1716,10 @@
                                 </div>
                             </li>
                             <li class="nav-item__shutters">
-                                <a href="">Our Works</a>
+                                <a href="#">Our Works</a>
                             </li>
                             <li class="nav-item__value-buys">
-                                <a href="">Need Help</a>
+                                <a href="#">Need Help</a>
                             </li>
                             <li class="nav-item__measure-install">
                                 <a href="/measure-install/">Free Samples</a>
@@ -1742,7 +1742,7 @@
     <a href="inspiration/" >
         Inspiration            </a>
 </li> -->
-                            <li><a href="">My Account</a></li>
+                            <li><a href="#">My Account</a></li>
                         </ul>
                     </nav>
 
@@ -2498,28 +2498,28 @@
                             <p>An error occurred, please check your information and try again.</p>
                         </div>
 
-                        <form class="form--contact">
+                        <form class="form--contact" action="/send-email" method="post">
                             <input type="hidden" name="recaptcha_token" value="">
                             <div class="form-wrap">
                                 <div class="form-field form-field--50">
                                     <label for="f-name">Name *</label>
-                                    <input type="text" name="contact_name" id="f-name"
+                                    <input type="text" name="name" id="f-name"
                                         placeholder="Please enter your full name">
                                 </div>
                                 <div class="form-field form-field--50">
                                     <label for="f-email">Email *</label>
-                                    <input type="email" name="contact_email" id="f-email"
+                                    <input type="email" name="email" id="f-email"
                                         placeholder="Please enter your email">
                                 </div>
                                 <div class="form-field form-field--50">
                                     <label for="f-phone">Phone number</label>
-                                    <input type="tel" name="contact_phone" id="f-phone"
+                                    <input type="tel" name="phone" id="f-phone"
                                         placeholder="Please enter your phone number">
                                 </div>
                                 <div class="form-field form-field--50">
                                     <label for="f-enquiry">Enquiry *</label>
                                     <div class="custom-select">
-                                        <select name="contact_subject" id="f-enquiry">
+                                        <select name="subject" id="f-enquiry">
                                             <option value="" disabled selected>What are you enquiring about?</option>
                                             <option value="Curtains">Curtains</option>
                                             <option value="Blinds">Blinds</option>
@@ -2529,7 +2529,7 @@
                                 </div>
                                 <div class="form-field">
                                     <label for="f-message">Comments *</label>
-                                    <textarea name="contact_message" id="f-message"
+                                    <textarea name="message" id="f-message"
                                         placeholder="How we can help you?"></textarea>
                                 </div>
                                 <div class="form-submit form-submit--center">
