@@ -1,39 +1,10 @@
-
-const express = require('express');
-const path = require('path');
-const bodyParser = require('body-parser');
-const nodemailer = require('nodemailer');
-const app = express();
-
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname)));
-
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname));
-});
-
-app.post('/send-email', (req, res) => {
-    const { name, email, subject, message, phone } = req.body;
-    console.log(req.body)
-
-
-    const transporter = nodemailer.createTransport({
-        host: 'smtppro.zoho.com',
-        auth: {
-            user: 'info@my-thread.com',
-            pass: 'e8aZkrdLZQrk'
-        }
-    });
-
-    const mailOptions = {
-        from: 'info@my-thread.com',
-        to: 'info@my-thread.com',
-        subject: subject,
-
-        // text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
-        html: `
-        <div class="mail-temp">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail</title>
+    
     <style>
 
         .mail-temp {
@@ -91,9 +62,13 @@ app.post('/send-email', (req, res) => {
                 text-align: center;
                 padding: 30px 0px;
                 color: white;
-
             }
     </style>
+
+</head>
+<body>
+
+    <div class="mail-temp">
         <table >
             <tr>
                 <td class="logo">
@@ -105,15 +80,15 @@ app.post('/send-email', (req, res) => {
             </tr>
             <tr>
                 <td>
-                    <img class="hero" src="https://my-thread.com/mail/banner.jpg" alt="">
+                    <img class="hero" src="./banner.jpg" alt="">
                 </td>
             </tr>
             <tr>
                 <td class="contact">
                             <h2>Contact Details</h2>
-                            <p>Name : ${name}</p>
-                            <p>Email : ${email}</p>
-                            <p>Phone : ${phone}</p>
+                            <p>Name : Rashid</p>
+                            <p>Email : muhammed916rashid@gmail.com</p>
+                            <p>Phone : 9562745975</p>
 
                 </td>
             </tr>
@@ -122,7 +97,7 @@ app.post('/send-email', (req, res) => {
                 <td class="message">
                     <h2>Message</h2>
                 <p>
-                    ${message}
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo sapiente voluptates porro magnam dolore, maxime quas cum.
                 </p>
                 </td>
             </tr>
@@ -136,28 +111,5 @@ app.post('/send-email', (req, res) => {
             </tr>
         </table>
     </div>
-        `
-    };
-
-    transporter.sendMail(mailOptions, (error, info) => {
-        if (error) {
-            console.log(error);
-            res.send('Error sending email.');
-        } else {
-            console.log('Email sent: ' + info.response);
-            res.sendFile(__dirname + '/thankyou/index.html')
-        }
-    });
-
-
-
-
-
-
-});
-
-
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+</body>
+</html>
