@@ -97,7 +97,7 @@ app.post('/send-email', (req, res) => {
             <tr>
                 <td class="logo">
                     <p>
-                        <img src="https://my-thread.com/logo/thread.svg"   alt="">
+                        <img src="https://my-thread.com/mail/logo.png"   alt="">
                     </p>
                     
                 </td>
