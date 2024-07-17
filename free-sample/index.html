@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="LWa1YdhmJRJBgZYkG3sDhTOK6EG6BLOS0VeqyOIIQ7Y" />
 
-    <title>Contact - My Thread</title>
+    <title>Free Sample</title>
     <!-- WP ENGINE PROD cbcoprod -->
 
 
@@ -1527,7 +1527,7 @@
                     <nav class="nav" id="skip-to-navigation">
                         <ul class="nav__primary">
                             <li class="nav-item__blinds has-menu">
-                                <a href="/curtains/">Shop</a>
+                                <a href="#">Shop</a>
                                 <button type="button" class="js--sub-menu-toggle"><span class="hidden">Toggle Blinds
                                         Mobile Sub Menu</span></button>
                                 <div class="nav__sub">
@@ -1658,13 +1658,13 @@
                                 </div>
                             </li>
                             <li class="nav-item__curtains has-menu">
-                                <a href="/fabric/">Fabric</a>
+                                <a href="/curtains/">Fabric</a>
                                 <button type="button" class="js--sub-menu-toggle"><span class="hidden">Toggle Curtains
                                         Mobile Sub Menu</span></button>
                                 <div class="nav__sub">
                                     <ul>
-                                        <li><a href="/fabric/">Our Fabrics</a></li>
-                                        <li><a href="/colours/">Our Colors</a></li>
+                                        <li><a href="#">Our Fabrics</a></li>
+                                        <li><a href="#">Our Colors</a></li>
                                     </ul>
                                 </div>
                                 <div class="nav__mega">
@@ -1678,7 +1678,7 @@
                                                 <div class="nav__mega-contents">
                                                     <div class="cards-grid waypoint">
                                                         <article class="card-grid__item card-category step-up">
-                                                            <a href="/fabric/" class="card-category__link">
+                                                            <a href="#" class="card-category__link">
                                                                 <div class="card-category__hero lazyload"
                                                                     data-src="/wp-content/uploads/Fabric/fab2.webp">
                                                                 </div>
@@ -1697,7 +1697,7 @@
                                                             </a>
                                                         </article>
                                                         <article class="card-grid__item card-category step-up">
-                                                            <a href="/colours/" class="card-category__link">
+                                                            <a href="l" class="card-category__link">
                                                                 <div class="card-category__hero lazyload"
                                                                     data-src="/wp-content/uploads/Fabric/fab1.webp">
                                                                 </div>
@@ -1726,7 +1726,7 @@
                                 <a href="#">Our Works</a>
                             </li>
                             <li class="nav-item__value-buys">
-                                <a href="/needhelp/">Need Help</a>
+                                <a href="/needhelp">Need Help</a>
                             </li>
                             <li class="nav-item__measure-install">
                                 <a href="/free-sample">Free Samples</a>
@@ -2443,12 +2443,12 @@
                 <div class="container">
                     <div class="opening-panel__container">
                         <div class="opening-panel__content">
-                            <h1 class="page-title step-down" data-delay="7">Contact</h1>
+                            <h1 class="page-title step-down" data-delay="7">Free Sample</h1>
                             <div class="opening-panel__content-copy step-up" data-delay="8">
-                                <p>We’d love to hear from you. Ask us anything, or share your feedback.</p>
+                                <p>Please contact us or fill out the form for a free sample.</p>
                             </div>
                             <div class="contact-snapshot step-up" data-delay="9">
-                                <p>Call us for advice on <a href="tel:+971 54 888 1737">+971 54 888 1737</a></p>
+                                <p>Call us  <a href="tel:+971 54 888 1737">+971 54 888 1737</a></p>
                                 <svg width="50" height="49" viewBox="0 0 50 49" aria-hidden="true" role="img"
                                     class="icon-call">
                                     <title>Call</title>
@@ -2487,38 +2487,37 @@
                             <p>An error occurred, please check your information and try again.</p>
                         </div>
 
-                        <form class="form--contact">
+                        <form class="form--contact" action="/send-email" method="post">
                             <input type="hidden" name="recaptcha_token" value="">
                             <div class="form-wrap">
                                 <div class="form-field form-field--50">
                                     <label for="f-name">Name *</label>
-                                    <input type="text" name="contact_name" id="f-name"
-                                        placeholder="Please enter your full name">
+                                    <input type="text" name="name" id="f-name"
+                                        placeholder="Please enter your full name" required>
                                 </div>
                                 <div class="form-field form-field--50">
                                     <label for="f-email">Email *</label>
-                                    <input type="email" name="contact_email" id="f-email"
-                                        placeholder="Please enter your email">
+                                    <input type="email" name="email" id="f-email"
+                                        placeholder="Please enter your email" required>
                                 </div>
                                 <div class="form-field form-field--50">
                                     <label for="f-phone">Phone number</label>
-                                    <input type="tel" name="contact_phone" id="f-phone"
-                                        placeholder="Please enter your phone number">
+                                    <input type="tel" name="phone" id="f-phone"
+                                        placeholder="Please enter your phone number" required>
                                 </div>
                                 <div class="form-field form-field--50">
-                                    <label for="f-enquiry">Enquiry *</label>
+                                    <label for="f-enquiry">Free Sample *</label>
                                     <div class="custom-select">
-                                        <select name="contact_subject" id="f-enquiry">
+                                        <select name="subject" id="f-enquiry" required>
                                             <option value="" disabled selected>What are you enquiring about?</option>
-                                            <option value="Curtains">Curtains</option>
-                                            <option value="Blinds">Blinds</option>
-                                            <option value="Shutters">Shutters</option>
+                                            <option value="Curtains Free Sample">Curtains</option>
+                                            <option value="Blinds Free Sample">Blinds</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="form-field">
                                     <label for="f-message">Comments *</label>
-                                    <textarea name="contact_message" id="f-message"
+                                    <textarea name="message" id="f-message"
                                         placeholder="How we can help you?"></textarea>
                                 </div>
                                 <div class="form-submit form-submit--center">
@@ -2665,7 +2664,7 @@
                             <!-- <a href="terms-conditions/">Terms & Conditions</a>
                     <a href="privacy/">Privacy</a> -->
                             <!-- <button type="button" class="btn--sitemap js-sitemap" aria-controls="sitemap" aria-label="Click to expand sitemap">Sitemap</button>	 -->
-                            <p class="main-footer__copyright">&copy; 2024 My Thread All Rights Reserved.</p>
+                            <p class="main-footer__copyright">&copy; 2024 Thread & Co. All Rights Reserved.</p>
                         </div>
                         <!-- <div class="main-footer__cap-col">
 					<p class="main-footer__credits">Website by <a href="https://humaan.com/" title="World-class digital for forward thinking brands – Websites, Apps, eCommerce and Software" target="_blank" rel="noopener">Humaan</a> </p>
