@@ -21129,3 +21129,11 @@ textarea::placeholder {
 *{
     font-family: Recoleta-Medium, TTWellingtons-Medium, Georgia, Times, serif !important;
 }
+
+
+@media screen and (max-width:650px) {
+	.mob-text-center-alight{
+		text-align: center !important;
+	}
+	
+}
