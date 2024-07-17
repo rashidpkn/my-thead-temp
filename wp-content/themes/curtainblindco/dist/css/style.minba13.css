@@ -21125,3 +21125,7 @@ textarea::placeholder {
 		display: none
 	}
 }
+
+*{
+    font-family: Recoleta-Medium, TTWellingtons-Medium, Georgia, Times, serif !important;
+}
