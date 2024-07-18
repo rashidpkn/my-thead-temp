@@ -1465,7 +1465,7 @@ h3 {
 	font-family: Recoleta-Medium, TTWellingtons-Medium, Georgia, Times, serif;
 	font-weight: 400;
 	font-size: 3rem;
-	color: #3f7355;
+	color: #fec500;
 	margin: 0 0 25px
 }
 
@@ -1530,15 +1530,15 @@ h3 {
 }
 
 .text--blue {
-	color: #3f7355
+	color: #fec500
 }
 
 .text--navy {
-	color: #3f7355
+	color: #fec500
 }
 
 .text--green {
-	color: #3f7355
+	color: #fec500
 }
 
 .text--red {
@@ -1633,7 +1633,7 @@ h3 {
 }
 
 .link--blue {
-	color: #3f7355
+	color: #fec500
 }
 
 a.link--blue.on-press,
@@ -1646,7 +1646,7 @@ html:not(.mobile):not(.tablet) button.link--blue:hover {
 }
 
 .link--green {
-	color: #3f7355
+	color: #fec500
 }
 
 a.link--green.on-press,
@@ -2165,7 +2165,7 @@ html:not(.mobile):not(.tablet) button.btn--green:hover {
 .btn--green.btn--border {
 	background-color: transparent;
 	border-color: #3f7355;
-	color: #3f7355
+	color: #fec500
 }
 
 a.btn--green.btn--border.on-press,
@@ -2229,7 +2229,7 @@ html:not(.mobile):not(.tablet) button.btn--blue:hover {
 .btn--blue.btn--border {
 	background-color: transparent;
 	border-color: #3f7355;
-	color: #3f7355
+	color: #fec500
 }
 
 a.btn--blue.btn--border.on-press,
@@ -2352,11 +2352,11 @@ html:not(.mobile):not(.tablet) button.btn--red.btn--border:hover {
 }
 
 .btn--text-green {
-	color: #3f7355
+	color: #fec500
 }
 
 .btn--text-blue {
-	color: #3f7355
+	color: #fec500
 }
 
 .btn--text-yellow {
@@ -2735,7 +2735,7 @@ input[type=file] {
 
 .form-message .form-message--success {
 	border: 2px solid #3f7355;
-	color: #3f7355
+	color: #fec500
 }
 
 .form-field-note {
@@ -2889,7 +2889,7 @@ html:not(.mobile):not(.tablet) .select-toggle__label:hover {
 }
 
 .custom-select select:focus {
-	color: #3f7355;
+	color: #fec500;
 	outline: 2px dotted rgba(204, 204, 204, .5)
 }
 
@@ -3242,7 +3242,7 @@ body:not(.home-new) .img-loading:not(.loaded):not(.lazy-complete):after {
 
 .product-reviews a.on-press .product-reviews__logo path,
 html:not(.mobile):not(.tablet) .product-reviews a:focus .product-reviews__logo path,
-html:not(.mobile):not(.tablet) .product-reviews a:hover .product-reviews__logo path {
+html:not(.mobile):not(.tablet) .product-reviews  .product-reviews__logo path {
 	opacity: .6
 }
 
@@ -3322,7 +3322,7 @@ html:not(.mobile):not(.tablet) .product-reviews a:hover .product-reviews__logo p
 
 .reviews__item-caption {
 	margin: 30px 0 0;
-	color: #3f7355;
+	color: #fec500;
 	line-height: 1;
 	font-family: TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
@@ -3722,7 +3722,7 @@ html:not(.mobile):not(.tablet) .my-cart:hover {
 .cart-product-item__thumb h3 a.on-press,
 html:not(.mobile):not(.tablet) .cart-product-item__thumb h3 a:focus,
 html:not(.mobile):not(.tablet) .cart-product-item__thumb h3 a:hover {
-	color: #3f7355
+	color: #fec500
 }
 
 .cart-product-item__thumb h3:first-child {
@@ -3957,7 +3957,7 @@ html:not(.mobile):not(.tablet) .cart-container-cap .button:hover {
 
 .cart-shipping .shipping-calculator-button {
 	display: inline-block;
-	color: #3f7355;
+	color: #fec500;
 	border: 2px solid #f5f4ee;
 	border-radius: 40px;
 	padding: 8px 17px 6px;
@@ -4085,7 +4085,7 @@ a[href="#afterpay-what-is-modal"] {
 a[href="#afterpay-what-is-modal"].on-press,
 html:not(.mobile):not(.tablet) a[href="#afterpay-what-is-modal"]:focus,
 html:not(.mobile):not(.tablet) a[href="#afterpay-what-is-modal"]:hover {
-	color: #3f7355
+	color: #fec500
 }
 
 a[href="#afterpay-what-is-modal"] span u {
@@ -4423,7 +4423,7 @@ html:not(.mobile):not(.tablet) .tooltip-wrap:hover .tooltip--below span:after {
 }
 
 .pagination .pagination__active {
-	color: #3f7355;
+	color: #fec500;
 	border-color: #3f7355
 }
 
@@ -4546,7 +4546,7 @@ html:not(.mobile):not(.tablet) .pagination--light button:hover:before {
 }
 
 .pagination--green .pagination__active {
-	color: #3f7355;
+	color: #fec500;
 	border-color: #3f7355
 }
 
@@ -5769,7 +5769,7 @@ html:not(.mobile):not(.tablet) .opening-panel--samples-page .samples-ctas__butto
 .have-questions__primary-copy a.on-press,
 html:not(.mobile):not(.tablet) .have-questions__primary-copy a:focus,
 html:not(.mobile):not(.tablet) .have-questions__primary-copy a:hover {
-	color: #3f7355
+	color: #fec500
 }
 
 .have-questions__faqs {
@@ -5866,7 +5866,7 @@ html:not(.mobile):not(.tablet) .have-questions__primary-copy a:hover {
 .measure-control__form label {
 	display: block;
 	margin: 0 0 5px;
-	color: #3f7355;
+	color: #fec500;
 	font-size: 1.5rem;
 	font-family: TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
@@ -6800,7 +6800,7 @@ html:not(.mobile):not(.tablet) .customiser__back:hover svg {
 
 .customiser__tooltip__trigger-title {
 	margin: 3px 0 0 10px;
-	color: #3f7355;
+	color: #fec500;
 	font-family: TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
 	font-variant: lining-nums;
@@ -7166,7 +7166,7 @@ html.is-touch .customiser__measurement-field input {
 .customiser__article.on-press,
 html:not(.mobile):not(.tablet) .customiser__article:focus,
 html:not(.mobile):not(.tablet) .customiser__article:hover {
-	color: #3f7355
+	color: #fec500
 }
 
 .customiser__article.on-press .video-trigger svg,
@@ -8178,7 +8178,7 @@ html:not(.mobile):not(.tablet) .home-blog-grid .slick-control:not(.slick-control
 #customer_login a.on-press,
 html:not(.mobile):not(.tablet) #customer_login a:focus,
 html:not(.mobile):not(.tablet) #customer_login a:hover {
-	color: #3f7355
+	color: #fec500
 }
 
 #customer_login .button {
@@ -8263,7 +8263,7 @@ html:not(.mobile):not(.tablet) #customer_login a:hover {
 .woocommerce-MyAccount-navigation li a.on-press,
 html:not(.mobile):not(.tablet) .woocommerce-MyAccount-navigation li a:focus,
 html:not(.mobile):not(.tablet) .woocommerce-MyAccount-navigation li a:hover {
-	color: #3f7355
+	color: #fec500
 }
 
 .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--customer-logout {
@@ -8319,7 +8319,7 @@ html:not(.mobile):not(.tablet) .woocommerce-MyAccount-navigation li.woocommerce-
 }
 
 .woocommerce-MyAccount-content a:not(.btn):not(.button) {
-	color: #3f7355;
+	color: #fec500;
 	font-family: TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
 	font-variant: lining-nums
@@ -8984,7 +8984,7 @@ html:not(.mobile):not(.tablet) .main-header__samples.btn:hover {
 .nav__primary a.on-press,
 html:not(.mobile):not(.tablet) .nav__primary a:focus,
 html:not(.mobile):not(.tablet) .nav__primary a:hover {
-	color: #3f7355
+	color: #fec500
 }
 
 .nav__primary>li>a {
@@ -9018,7 +9018,7 @@ html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__on-sale a:hover+.js--s
 .nav__primary>li.nav-item__blinds a.on-press,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__blinds a:focus,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__blinds a:hover {
-	color: #3f7355
+	color: #fec500
 }
 
 .nav__primary>li.nav-item__blinds a.on-press+.js--sub-menu-toggle:before,
@@ -9034,7 +9034,7 @@ html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__blinds a:hover+.js--su
 .nav__primary>li.nav-item__curtains a.on-press,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__curtains a:focus,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__curtains a:hover {
-	color: #3f7355
+	color: #fec500
 }
 
 .nav__primary>li.nav-item__curtains a.on-press+.js--sub-menu-toggle:before,
@@ -9050,7 +9050,7 @@ html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__curtains a:hover+.js--
 .nav__primary>li.nav-item__shutters a.on-press,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__shutters a:focus,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__shutters a:hover {
-	color: #3f7355
+	color: #fec500
 }
 
 .nav__primary>li.nav-item__shutters a.on-press+.js--sub-menu-toggle:before,
@@ -10593,7 +10593,7 @@ button.colour-option__item.is-active .colour-option__item__icon {
 
 .product-config__cap .product-config__delays .product-config__message a,
 .product-config__cap .product-config__delays--customiser .product-config__message a {
-	color: #3f7355;
+	color: #fec500;
 	text-decoration: underline
 }
 
@@ -10800,7 +10800,7 @@ html:not(.mobile):not(.tablet) .product-config__cap .product-config__delays--cus
 	-ms-flex-align: center;
 	align-items: center;
 	margin-left: auto;
-	color: #3f7355;
+	color: #fec500;
 	text-transform: uppercase;
 	font-family: TTWellingtons-Bold, TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
@@ -11262,7 +11262,7 @@ html:not(.mobile):not(.tablet) .product-gallery__texture:hover .product-gallery_
 .product-content .article-item a.on-press .article-item__title,
 html:not(.mobile):not(.tablet) .product-content .article-item a:focus .article-item__title,
 html:not(.mobile):not(.tablet) .product-content .article-item a:hover .article-item__title {
-	color: #3f7355
+	color: #fec500
 }
 
 .product-content__feat-article .article-item {
@@ -11409,7 +11409,7 @@ html:not(.mobile):not(.tablet) .product-content .article-item a:hover .article-i
 html:not(.mobile):not(.tablet) .product-downloads__item:focus,
 html:not(.mobile):not(.tablet) .product-downloads__item:hover {
 	border-color: #3f7355;
-	color: #3f7355
+	color: #fec500
 }
 
 .product-downloads__title {
@@ -11541,7 +11541,7 @@ html:not(.mobile):not(.tablet) .contact-snapshot a:hover {
 }
 
 .recaptcha-notice a {
-	color: #3f7355;
+	color: #fec500;
 	text-decoration: underline
 }
 
@@ -11598,7 +11598,7 @@ html:not(.mobile):not(.tablet) .recaptcha-notice a:hover {
 .search-results__nav a.on-press:not(.is-active),
 html:not(.mobile):not(.tablet) .search-results__nav a:focus:not(.is-active),
 html:not(.mobile):not(.tablet) .search-results__nav a:hover:not(.is-active) {
-	color: #3f7355
+	color: #fec500
 }
 
 .search-results__pages {
@@ -11709,7 +11709,7 @@ html:not(.mobile):not(.tablet) .search-results__item-link:hover h2 {
 }
 
 .is-editable a:not(.btn) {
-	color: #3f7355;
+	color: #fec500;
 	font-family: TTWellingtons-Bold, TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
 	font-variant: lining-nums
@@ -11769,7 +11769,7 @@ html:not(.mobile):not(.tablet) .is-editable a:not(.btn):hover {
 }
 
 .is-editable blockquote footer {
-	color: #3f7355;
+	color: #fec500;
 	display: block;
 	margin: 20px 0 0;
 	font-family: TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -12357,11 +12357,11 @@ html:not(.mobile):not(.tablet) .woocommerce-message a:hover {
 }
 
 .woocommerce-info:before {
-	color: #3f7355 !important
+	color: #fec500 !important
 }
 
 .woocommerce-info a {
-	color: #3f7355;
+	color: #fec500;
 	text-decoration: underline;
 	font-family: TTWellingtons-Bold, TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
@@ -12379,11 +12379,11 @@ html:not(.mobile):not(.tablet) .woocommerce-info a:hover {
 }
 
 .woocommerce-message:before {
-	color: #3f7355 !important
+	color: #fec500 !important
 }
 
 .woocommerce-message a {
-	color: #3f7355;
+	color: #fec500;
 	text-decoration: underline;
 	font-family: TTWellingtons-Bold, TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
@@ -12462,7 +12462,7 @@ body .woocommerce-order table.shop_table {
 }
 
 body .woocommerce-order table.shop_table a {
-	color: #3f7355;
+	color: #fec500;
 	font-family: TTWellingtons-Bold, TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
 	font-variant: lining-nums
@@ -12551,7 +12551,7 @@ body .woocommerce-order #cfw-thank-you-action .cfw-primary-btn {
 	font-variant: lining-nums;
 	background-color: transparent;
 	border-color: #3f7355;
-	color: #3f7355
+	color: #fec500
 }
 
 abody .woocommerce-order #cfw-thank-you-action .cfw-primary-btn.on-press,
@@ -13335,7 +13335,7 @@ html:not(.mobile):not(.tablet) buttonbody .woocommerce-order #cfw-thank-you-acti
 	-ms-flex-align: center;
 	align-items: center;
 	margin: auto auto 0;
-	color: #3f7355;
+	color: #fec500;
 	font-family: TTWellingtons-Bold, TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	text-transform: uppercase
 }
@@ -16026,7 +16026,7 @@ textarea::placeholder {
 	}
 
 	.home-features .slick-dots .home-features__tab-green {
-		color: #3f7355
+		color: #fec500
 	}
 
 	.home-features .slick-dots .home-features__tab-green:after {
@@ -16050,7 +16050,7 @@ textarea::placeholder {
 	}
 
 	.home-features .slick-dots .home-features__tab-blue {
-		color: #3f7355
+		color: #fec500
 	}
 
 	.home-features .slick-dots .home-features__tab-blue:after {
@@ -18530,7 +18530,7 @@ textarea::placeholder {
 	.nav__secondary a.on-press,
 	html:not(.mobile):not(.tablet) .nav__secondary a:focus,
 	html:not(.mobile):not(.tablet) .nav__secondary a:hover {
-		color: #3f7355
+		color: #fec500
 	}
 
 	html.ios .nav .nav__secondary {
@@ -18552,7 +18552,7 @@ textarea::placeholder {
 
 	.nav__sub a {
 		padding: 5px 15px 5px 45px;
-		color: #3f7355;
+		color: #2c3731;
 		font-size: 1.3rem;
 		font-family: TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-weight: 400;
@@ -18953,7 +18953,7 @@ textarea::placeholder {
 	.tabs__panel .tab-accordion.on-press,
 	html:not(.mobile):not(.tablet) .tabs__panel .tab-accordion:focus,
 	html:not(.mobile):not(.tablet) .tabs__panel .tab-accordion:hover {
-		color: #3f7355
+		color: #fec500
 	}
 
 	.tabs__panel .tab-accordion.on-press:before,
@@ -18982,7 +18982,7 @@ textarea::placeholder {
 	.tabs__panel.is-active .tab-accordion.on-press,
 	html:not(.mobile):not(.tablet) .tabs__panel.is-active .tab-accordion:focus,
 	html:not(.mobile):not(.tablet) .tabs__panel.is-active .tab-accordion:hover {
-		color: #3f7355
+		color: #fec500
 	}
 
 	.tabs__panel .tabs__panel-content {
@@ -19726,7 +19726,7 @@ textarea::placeholder {
 	}
 
 	#customer_login h2 {
-		color: #3f7355;
+		color: #fec500;
 		margin: 0 0 25px
 	}
 
