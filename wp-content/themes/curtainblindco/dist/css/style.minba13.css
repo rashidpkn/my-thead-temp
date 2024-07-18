@@ -1530,11 +1530,11 @@ h3 {
 }
 
 .text--blue {
-	color: #7285a5
+	color: #3f7355
 }
 
 .text--navy {
-	color: #222433
+	color: #3f7355
 }
 
 .text--green {
@@ -1546,7 +1546,7 @@ h3 {
 }
 
 .text--yellow {
-	color: #febf7a
+	color: #ffffff
 }
 
 .text--reg {
@@ -1613,11 +1613,11 @@ h3 {
 }
 
 .fill--blue {
-	fill: #7285a5
+	fill: #3f7355
 }
 
 .fill--navy {
-	fill: #222433
+	fill: #3f7355
 }
 
 .fill--green {
@@ -1629,11 +1629,11 @@ h3 {
 }
 
 .fill--yellow {
-	fill: #febf7a
+	fill: #ffffff
 }
 
 .link--blue {
-	color: #7285a5
+	color: #3f7355
 }
 
 a.link--blue.on-press,
@@ -1708,7 +1708,7 @@ html.reduced-motion .img-reveal:before {
 }
 
 .img-reveal--yellow:before {
-	background: #febf7a
+	background: #ffffff
 }
 
 .img-reveal--pink:before {
@@ -1716,7 +1716,7 @@ html.reduced-motion .img-reveal:before {
 }
 
 .img-reveal--blue:before {
-	background: #7285a5
+	background: #3f7355
 }
 
 .img-reveal--green:before {
@@ -2206,13 +2206,13 @@ html:not(.mobile):not(.tablet) a.btn--green-dark.btn--border:focus,
 html:not(.mobile):not(.tablet) a.btn--green-dark.btn--border:hover,
 html:not(.mobile):not(.tablet) button.btn--green-dark.btn--border:focus,
 html:not(.mobile):not(.tablet) button.btn--green-dark.btn--border:hover {
-	background-color: #243029;
-	border-color: #243029;
+	background-color: #3f7355;
+	border-color: #3f7355;
 	color: #fff
 }
 
 .btn--blue {
-	background-color: #7285a5;
+	background-color: #3f7355;
 	color: #fff
 }
 
@@ -2228,8 +2228,8 @@ html:not(.mobile):not(.tablet) button.btn--blue:hover {
 
 .btn--blue.btn--border {
 	background-color: transparent;
-	border-color: #7285a5;
-	color: #7285a5
+	border-color: #3f7355;
+	color: #3f7355
 }
 
 a.btn--blue.btn--border.on-press,
@@ -2238,8 +2238,8 @@ html:not(.mobile):not(.tablet) a.btn--blue.btn--border:focus,
 html:not(.mobile):not(.tablet) a.btn--blue.btn--border:hover,
 html:not(.mobile):not(.tablet) button.btn--blue.btn--border:focus,
 html:not(.mobile):not(.tablet) button.btn--blue.btn--border:hover {
-	background-color: #7285a5;
-	border-color: #7285a5;
+	background-color: #3f7355;
+	border-color: #3f7355;
 	color: #fff
 }
 
@@ -2276,7 +2276,7 @@ html:not(.mobile):not(.tablet) button.btn--dark.btn--border:hover {
 }
 
 .btn--yellow {
-	background-color: #febf7a;
+	background-color: #ffffff;
 	color: #1e1e1f
 }
 
@@ -2292,7 +2292,7 @@ html:not(.mobile):not(.tablet) button.btn--yellow:hover {
 
 .btn--yellow.btn--border {
 	background-color: transparent;
-	border-color: #febf7a;
+	border-color: #ffffff;
 	color: #b77e3f
 }
 
@@ -2302,8 +2302,8 @@ html:not(.mobile):not(.tablet) a.btn--yellow.btn--border:focus,
 html:not(.mobile):not(.tablet) a.btn--yellow.btn--border:hover,
 html:not(.mobile):not(.tablet) button.btn--yellow.btn--border:focus,
 html:not(.mobile):not(.tablet) button.btn--yellow.btn--border:hover {
-	background-color: #febf7a;
-	border-color: #febf7a;
+	background-color: #ffffff;
+	border-color: #ffffff;
 	color: #1e1e1f
 }
 
@@ -2356,11 +2356,11 @@ html:not(.mobile):not(.tablet) button.btn--red.btn--border:hover {
 }
 
 .btn--text-blue {
-	color: #7285a5
+	color: #3f7355
 }
 
 .btn--text-yellow {
-	color: #febf7a
+	color: #ffffff
 }
 
 a.btn--hover-yellow.on-press,
@@ -2419,7 +2419,7 @@ html:not(.mobile):not(.tablet) a.btn--hover-blue:focus,
 html:not(.mobile):not(.tablet) a.btn--hover-blue:hover,
 html:not(.mobile):not(.tablet) button.btn--hover-blue:focus,
 html:not(.mobile):not(.tablet) button.btn--hover-blue:hover {
-	background-color: #7285a5 !important;
+	background-color: #3f7355 !important;
 	color: #fff !important
 }
 
@@ -3070,23 +3070,23 @@ body:not(.home-new) .img-loading:not(.loaded):not(.lazy-complete):after {
 }
 
 .wave--blue.wave--stroke path {
-	stroke: #7285a5
+	stroke: #3f7355
 }
 
 .wave--navy path {
-	fill: #222433
+	fill: #3f7355
 }
 
 .wave--navy.wave--stroke path {
-	stroke: #222433
+	stroke: #3f7355
 }
 
 .wave--yellow path {
-	fill: #febf7a
+	fill: #ffffff
 }
 
 .wave--yellow.wave--stroke path {
-	stroke: #febf7a
+	stroke: #ffffff
 }
 
 .wave--pink path {
@@ -3173,11 +3173,11 @@ body:not(.home-new) .img-loading:not(.loaded):not(.lazy-complete):after {
 }
 
 .wave-static--blue {
-	stroke: #7285a5
+	stroke: #3f7355
 }
 
 .wave-static--navy {
-	stroke: #222433
+	stroke: #3f7355
 }
 
 .wave-static--yellow {
@@ -3322,7 +3322,7 @@ html:not(.mobile):not(.tablet) .product-reviews a:hover .product-reviews__logo p
 
 .reviews__item-caption {
 	margin: 30px 0 0;
-	color: #7285a5;
+	color: #3f7355;
 	line-height: 1;
 	font-family: TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
@@ -4167,7 +4167,7 @@ a[href="#afterpay-what-is-modal"] span u {
 .site-search button.on-press,
 html:not(.mobile):not(.tablet) .site-search button:focus,
 html:not(.mobile):not(.tablet) .site-search button:hover {
-	background: #7285a5
+	background: #3f7355
 }
 
 .accordion {
@@ -4495,16 +4495,16 @@ html:not(.mobile):not(.tablet) button.pagination__control:hover:before {
 }
 
 .pagination--light .pagination__active {
-	color: #febf7a;
-	border-color: #febf7a
+	color: #ffffff;
+	border-color: #ffffff
 }
 
 .pagination--light .pagination__control {
-	border-color: #febf7a
+	border-color: #ffffff
 }
 
 .pagination--light .pagination__control:before {
-	border-color: #febf7a
+	border-color: #ffffff
 }
 
 .pagination--light a:not(.pagination__control),
@@ -4519,7 +4519,7 @@ html:not(.mobile):not(.tablet) .pagination--light a:not(.pagination__control):fo
 html:not(.mobile):not(.tablet) .pagination--light a:not(.pagination__control):hover,
 html:not(.mobile):not(.tablet) .pagination--light button:not(.pagination__control):focus,
 html:not(.mobile):not(.tablet) .pagination--light button:not(.pagination__control):hover {
-	color: #febf7a
+	color: #ffffff
 }
 
 .pagination--light a.on-press,
@@ -4528,7 +4528,7 @@ html:not(.mobile):not(.tablet) .pagination--light a:focus,
 html:not(.mobile):not(.tablet) .pagination--light a:hover,
 html:not(.mobile):not(.tablet) .pagination--light button:focus,
 html:not(.mobile):not(.tablet) .pagination--light button:hover {
-	background: #febf7a
+	background: #ffffff
 }
 
 .pagination--light a.on-press:before,
@@ -4601,7 +4601,7 @@ html:not(.mobile):not(.tablet) .pagination--green button:hover:before {
 .btn--sitemap.on-press,
 html:not(.mobile):not(.tablet) .btn--sitemap:focus,
 html:not(.mobile):not(.tablet) .btn--sitemap:hover {
-	color: #febf7a
+	color: #ffffff
 }
 
 .footer-sitemap {
@@ -4631,7 +4631,7 @@ html:not(.mobile):not(.tablet) .btn--sitemap:hover {
 .footer-sitemap__col>a.on-press,
 html:not(.mobile):not(.tablet) .footer-sitemap__col>a:focus,
 html:not(.mobile):not(.tablet) .footer-sitemap__col>a:hover {
-	color: #febf7a
+	color: #ffffff
 }
 
 .footer-sitemap__nav ul {
@@ -4771,7 +4771,7 @@ html:not(.mobile):not(.tablet) .footer-sitemap__col>a:hover {
 }
 
 .card-category--all-blue .card-category__hero {
-	background: #7285a5
+	background: #3f7355
 }
 
 .card-category__link {
@@ -5642,19 +5642,19 @@ html:not(.mobile):not(.tablet) .opening-panel--samples-page .samples-ctas__butto
 }
 
 .how-it-works__item--blue .how-it-works__icon .octagon {
-	stroke: #7285a5
+	stroke: #3f7355
 }
 
 .how-it-works__item--blue .how-it-works__icon svg:not(.octagon) path {
-	fill: #7285a5 !important
+	fill: #3f7355 !important
 }
 
 .how-it-works__item--yellow .how-it-works__icon .octagon {
-	stroke: #febf7a
+	stroke: #ffffff
 }
 
 .how-it-works__item--yellow .how-it-works__icon svg:not(.octagon) path {
-	fill: #febf7a !important
+	fill: #ffffff !important
 }
 
 .how-it-works__item--green .how-it-works__icon .octagon {
@@ -5769,7 +5769,7 @@ html:not(.mobile):not(.tablet) .opening-panel--samples-page .samples-ctas__butto
 .have-questions__primary-copy a.on-press,
 html:not(.mobile):not(.tablet) .have-questions__primary-copy a:focus,
 html:not(.mobile):not(.tablet) .have-questions__primary-copy a:hover {
-	color: #7285a5
+	color: #3f7355
 }
 
 .have-questions__faqs {
@@ -6206,7 +6206,7 @@ body .main-header--scrolled.main-header--mid-scrolled~.main-content .measure-con
 
 .faqs__categories button.is-active:after {
 	opacity: 1;
-	border-color: #febf7a;
+	border-color: #ffffff;
 	-webkit-transform: rotate(45deg) translate(0, -5px);
 	transform: rotate(45deg) translate(0, -5px)
 }
@@ -6393,7 +6393,7 @@ html:not(.mobile):not(.tablet) .article-item a:hover .article-item__hero-img {
 .article-item a.on-press .article-item__title,
 html:not(.mobile):not(.tablet) .article-item a:focus .article-item__title,
 html:not(.mobile):not(.tablet) .article-item a:hover .article-item__title {
-	color: #febf7a
+	color: #ffffff
 }
 
 .article-item a.on-press .video-trigger .octagon,
@@ -7708,11 +7708,11 @@ html:not(.mobile):not(.tablet) .customiser__option:not(.customiser__option--disa
 }
 
 .home-features__slide.panel--blue .img-reveal:before {
-	background: #7285a5
+	background: #3f7355
 }
 
 .home-features__slide.panel--navy .img-reveal:before {
-	background: #222433
+	background: #3f7355
 }
 
 .home-features__slide.panel--dark .img-reveal:before {
@@ -7720,7 +7720,7 @@ html:not(.mobile):not(.tablet) .customiser__option:not(.customiser__option--disa
 }
 
 .home-features__slide.panel--yellow .img-reveal:before {
-	background: #febf7a
+	background: #ffffff
 }
 
 .home-features__slide.panel--light .img-reveal:before {
@@ -7739,7 +7739,7 @@ html:not(.mobile):not(.tablet) .customiser__option:not(.customiser__option--disa
 	padding: 4px 10px 3px;
 	margin: 0 3px;
 	border-radius: 3px;
-	border: 2px solid #febf7a
+	border: 2px solid #ffffff
 }
 
 .home-features__content {
@@ -7854,7 +7854,7 @@ html:not(.mobile):not(.tablet) .customiser__option:not(.customiser__option--disa
 }
 
 .usps__grid-item svg path {
-	fill: #febf7a
+	fill: #ffffff
 }
 
 .usps__title {
@@ -8018,7 +8018,7 @@ html:not(.mobile):not(.tablet) .customiser__option:not(.customiser__option--disa
 .home-blog-grid .slick-control:not(.slick-control--chevron):not([aria-disabled=true]).on-press,
 html:not(.mobile):not(.tablet) .home-blog-grid .slick-control:not(.slick-control--chevron):not([aria-disabled=true]):focus,
 html:not(.mobile):not(.tablet) .home-blog-grid .slick-control:not(.slick-control--chevron):not([aria-disabled=true]):hover {
-	background: #febf7a
+	background: #ffffff
 }
 
 .home-blog-grid .slick-dots {
@@ -8876,7 +8876,7 @@ html:not(.mobile):not(.tablet) .main-header .logo:hover svg {
 .main-header__sale a.on-press,
 html:not(.mobile):not(.tablet) .main-header__sale a:focus,
 html:not(.mobile):not(.tablet) .main-header__sale a:hover {
-	color: #febf7a
+	color: #ffffff
 }
 
 .main-header__sale a.on-press em,
@@ -8887,7 +8887,7 @@ html:not(.mobile):not(.tablet) .main-header__sale a:hover em {
 
 .main-header__sale a em {
 	font-style: normal;
-	background: #7285a5;
+	background: #3f7355;
 	font-family: TTWellingtons-Bold, TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
 	font-variant: lining-nums;
@@ -9034,33 +9034,33 @@ html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__blinds a:hover+.js--su
 .nav__primary>li.nav-item__curtains a.on-press,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__curtains a:focus,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__curtains a:hover {
-	color: #7285a5
+	color: #3f7355
 }
 
 .nav__primary>li.nav-item__curtains a.on-press+.js--sub-menu-toggle:before,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__curtains a:focus+.js--sub-menu-toggle:before,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__curtains a:hover+.js--sub-menu-toggle:before {
-	border-color: #7285a5
+	border-color: #3f7355
 }
 
 .nav__primary>li.nav-item__curtains a.is-active .wave-static {
-	stroke: #7285a5
+	stroke: #3f7355
 }
 
 .nav__primary>li.nav-item__shutters a.on-press,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__shutters a:focus,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__shutters a:hover {
-	color: #222433
+	color: #3f7355
 }
 
 .nav__primary>li.nav-item__shutters a.on-press+.js--sub-menu-toggle:before,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__shutters a:focus+.js--sub-menu-toggle:before,
 html:not(.mobile):not(.tablet) .nav__primary>li.nav-item__shutters a:hover+.js--sub-menu-toggle:before {
-	border-color: #222433
+	border-color: #3f7355
 }
 
 .nav__primary>li.nav-item__shutters a.is-active .wave-static {
-	stroke: #222433
+	stroke: #3f7355
 }
 
 .nav__primary .wave-static {
@@ -9727,7 +9727,7 @@ html:not(.mobile):not(.tablet) .main-footer__subscribe button:hover {
 .main-footer .social-links a.on-press .octagon,
 html:not(.mobile):not(.tablet) .main-footer .social-links a:focus .octagon,
 html:not(.mobile):not(.tablet) .main-footer .social-links a:hover .octagon {
-	fill: #febf7a
+	fill: #ffffff
 }
 
 .main-footer .tab-rounded {
@@ -9754,7 +9754,7 @@ html:not(.mobile):not(.tablet) .main-footer .social-links a:hover .octagon {
 .main-footer .tab-rounded.on-press,
 html:not(.mobile):not(.tablet) .main-footer .tab-rounded:focus,
 html:not(.mobile):not(.tablet) .main-footer .tab-rounded:hover {
-	color: #febf7a;
+	color: #ffffff;
 	-webkit-transform: translateY(0);
 	transform: translateY(0)
 }
@@ -9855,7 +9855,7 @@ img {
 }
 
 .panel--yellow {
-	background: #febf7a
+	background: #ffffff
 }
 
 .panel--red {
@@ -9903,7 +9903,7 @@ img {
 }
 
 .panel--navy {
-	background: #222433;
+	background: #3f7355;
 	color: #fff
 }
 
@@ -10751,8 +10751,8 @@ html:not(.mobile):not(.tablet) .product-config__cap .product-config__delays--cus
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	-webkit-box-shadow: 0 0 0 2px #febf7a;
-	box-shadow: 0 0 0 2px #febf7a;
+	-webkit-box-shadow: 0 0 0 2px #ffffff;
+	box-shadow: 0 0 0 2px #ffffff;
 	background: #fff
 }
 
@@ -10767,7 +10767,7 @@ html:not(.mobile):not(.tablet) .product-config__cap .product-config__delays--cus
 	left: 9px;
 	width: 2px;
 	height: 8px;
-	background: #febf7a
+	background: #ffffff
 }
 
 .product-config-cta--free__icon:after,
@@ -11517,7 +11517,7 @@ html:not(.mobile):not(.tablet) .product-downloads__item:hover {
 .contact-snapshot a.on-press,
 html:not(.mobile):not(.tablet) .contact-snapshot a:focus,
 html:not(.mobile):not(.tablet) .contact-snapshot a:hover {
-	color: #febf7a
+	color: #ffffff
 }
 
 .contact-snapshot svg {
@@ -12353,11 +12353,11 @@ html:not(.mobile):not(.tablet) .woocommerce-message a:hover {
 }
 
 .woocommerce-info {
-	border: 2px solid #7285a5 !important
+	border: 2px solid #3f7355 !important
 }
 
 .woocommerce-info:before {
-	color: #7285a5 !important
+	color: #3f7355 !important
 }
 
 .woocommerce-info a {
@@ -12383,7 +12383,7 @@ html:not(.mobile):not(.tablet) .woocommerce-info a:hover {
 }
 
 .woocommerce-message a {
-	color: #7285a5;
+	color: #3f7355;
 	text-decoration: underline;
 	font-family: TTWellingtons-Bold, TTWellingtons-DemiBold, TTWellingtons-Medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 400;
@@ -12628,7 +12628,7 @@ html:not(.mobile):not(.tablet) buttonbody .woocommerce-order #cfw-thank-you-acti
 
 .sample-usps__bar .icon .octagon>* {
 	fill: #fff;
-	stroke: #7285a5
+	stroke: #3f7355
 }
 
 .sample-usps .usps__grid {
@@ -12820,7 +12820,7 @@ html:not(.mobile):not(.tablet) buttonbody .woocommerce-order #cfw-thank-you-acti
 .modaal-sample__header .title {
 	font-size: 4.2rem;
 	width: 100%;
-	background-color: #7285a5;
+	background-color:#3f7355;
 	color: #fff;
 	text-align: center;
 	padding: 55px 20px 60px 20px;
@@ -14201,8 +14201,8 @@ html:not(.mobile):not(.tablet) buttonbody .woocommerce-order #cfw-thank-you-acti
 }
 
 .slick-dots .slick-active button {
-	-webkit-box-shadow: inset 0 0 0 10px #7285a5, 0 0 0 2px #7285a5;
-	box-shadow: inset 0 0 0 10px #7285a5, 0 0 0 2px #7285a5
+	-webkit-box-shadow: inset 0 0 0 10px #3f7355, 0 0 0 2px #3f7355;
+	box-shadow: inset 0 0 0 10px #3f7355, 0 0 0 2px #3f7355
 }
 
 .slick-control {
@@ -16046,15 +16046,15 @@ textarea::placeholder {
 	}
 
 	.home-features .slick-dots .home-features__tab-yellow:after {
-		background: #febf7a
+		background: #ffffff
 	}
 
 	.home-features .slick-dots .home-features__tab-blue {
-		color: #7285a5
+		color: #3f7355
 	}
 
 	.home-features .slick-dots .home-features__tab-blue:after {
-		background: #7285a5
+		background: #3f7355
 	}
 
 	.home-features .slick-dots .home-features__tab-dark,
