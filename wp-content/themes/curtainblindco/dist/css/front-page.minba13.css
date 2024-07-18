@@ -1349,7 +1349,7 @@ div:nth-child(3n+3)>.card--service .mask-line {
     z-index: 1;
     position: relative;
     overflow: hidden;
-    border-radius: 2rem
+    /* border-radius: 2rem */
 }
 
 .card--cta-page .card__hero img {
