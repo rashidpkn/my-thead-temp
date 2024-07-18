@@ -1322,7 +1322,7 @@ div:nth-child(3n+3)>.card--service .mask-line {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     border-radius: 1rem
 }
 

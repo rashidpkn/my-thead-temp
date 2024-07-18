@@ -3242,7 +3242,7 @@ body:not(.home-new) .img-loading:not(.loaded):not(.lazy-complete):after {
 
 .product-reviews a.on-press .product-reviews__logo path,
 html:not(.mobile):not(.tablet) .product-reviews a:focus .product-reviews__logo path,
-html:not(.mobile):not(.tablet) .product-reviews a:hover .product-reviews__logo path {
+html:not(.mobile):not(.tablet) .product-reviews  .product-reviews__logo path {
 	opacity: .6
 }
 
