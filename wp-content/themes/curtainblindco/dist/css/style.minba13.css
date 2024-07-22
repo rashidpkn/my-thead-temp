@@ -5376,12 +5376,12 @@ html.reduced-motion .opening-panel__reveal .wave {
 }
 
 .opening-panel__toggle-copy--open {
-	max-height: 1000px;
+	max-height: 4000px;
 	opacity: 1
 }
 
 .opening-panel__toggle-copy-inner {
-	padding-top: 40px
+	/* padding-top: 40px */
 }
 
 .opening-panel__toggle-cta {
