@@ -2717,7 +2717,7 @@ div:nth-child(3n+3)>.card--service .mask-line {
 
     .card--service .card__content {
         -ms-flex-item-align: center;
-        align-self: center
+        /* align-self: center */
     }
 
     .card--service .card__content svg {
