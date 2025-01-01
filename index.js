@@ -133,7 +133,7 @@ app.post('/send-email', (req, res) => {
             <tr class="footer">
                 <td>
                     <p>
-                        &copy; 2024 Thread Blinds & Curtains. All Rights Reserved.
+                        &copy; 2025 Thread Blinds & Curtains. All Rights Reserved.
                     </p>
                 </td>
             </tr>
